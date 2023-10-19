@@ -1,0 +1,17 @@
+/* .carousel-inner{
+    height: 100vh;
+} */
+.headCarousel .carousel-item{
+    height: 100vh;
+}
+.headCarousel img{
+    height: 100%;
+}
+@media screen and (max-width:500px) {
+    .headCarousel .carousel-item{
+        height: 40vh;
+    }
+    .headCarousel img{
+        height: 100%;
+    }
+}
